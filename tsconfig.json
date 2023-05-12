@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noImplicitAny": true,
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": "src",
+    "paths": {
+      "@backend/*": [
+        "backend/*"
+      ],
+      "@frontend/*": [
+        "frontend/*"
+      ],
+      "@core/*": [
+        "core/*"
+      ],
+      "@docs/*": [
+        "docs/*"
+      ],
+      "@public/*": [
+        "../public/*"
+      ],
+      "@atoms/*": [
+        "frontend/atoms/*"
+      ],
+      "@chakra/*": [
+        "frontend/chakra/*"
+      ],
+      "@components/*": [
+        "frontend/components/*"
+      ],
+      "@api/*": [
+        "pages/api/*"
+      ]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+   ],
+  "exclude": [
+    "node_modules"
+  ]
+}
